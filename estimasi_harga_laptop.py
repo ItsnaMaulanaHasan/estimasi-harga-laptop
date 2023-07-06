@@ -5,9 +5,9 @@ model = pickle.load(open('estimasi_harga_laptop.sav', 'rb'))
 
 st.title('Estimasi Harga Laptop')
 
-ram = st.selectbox('Ram (GB)', [2, 4, 6, 8, 12, 16, 24, 32, 64])
+ram = st.selectbox('Ram_(GB)', [2, 4, 6, 8, 12, 16, 24, 32, 64])
 
-weight = st.number_input('Weight (KG)')
+weight = st.number_input('Weight_(KG)')
 
 touchscreen = st.selectbox('Touchscreen', ['No', 'Yes'])
 
